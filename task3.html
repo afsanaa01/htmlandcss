@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task3-Afsana</title>
+</head>
+<body>
+        <link rel="stylesheet" href="main3.css">
+        <p>Let's suppose this is for a magazine order. The next thing you want to add is a drop list of magazine choices (think up four or five) and a pair of radio buttons for choosing the length of subscription...</p>
+        <form action="">
+            <label for="name" id="name">Name:</label>
+            <input type="text" id="name" size="30px" style="margin: 0px 0px 10px 41px;"><br>
+            <label for="address" id="address">Address:</label>
+            <input type="text" id="address" size="30px" style="margin: 0px 0px 10px 26px;"><br>
+            <label for="city" id="city">City:</label>
+            <input type="text" id="city" size="30px" style="margin: 0px 0px 10px 51px;"><br>
+            <label for="state" id="state">State:</label>
+            <input type="text" id="state" style="margin: 0px 0px 10px 47px;"><br>
+            <label for="zip" id="zip">Zip:</label>
+            <input type="text" id="zip" style="margin: 0px 0px 10px 56px;"><br>
+            <label for="time">Magazine:</label>
+            <input list="time" id="list" placeholder="Newsweek">
+            <datalist id="time">
+                <option value="Day"></option>
+                <option value="Week"></option>
+                <option value="Month"></option>
+                <option value="Year"></option>
+            </datalist><br>
+            <label for="subscription">Subscription:</label>
+            <input type="radio" id="1year" name="subscription" value="1 year">
+            <label for="1year">1 year</label>
+            <input type="radio" id="2year" name="subscription" value="2 year">
+            <label for="2year">2 years</label>
+            <br>
+            <input type="submit" value="Send your order"><br>
+            <a href="task3.html" target="blank">VIEW THIS EXAMPLE ON A PAGE BY ITSELF</a>
+            <hr>
+            <p>Lastly, make the Name, Address and City boxes a little bigger and add a text area for Additional Comments...</p>
+            <br>
+            <label for="name" id="name">Name:</label>
+            <input type="text" id="name" size="45px" style="margin: 0px 0px 10px 41px;"><br>
+            <label for="address" id="address">Address:</label>
+            <input type="text" id="address" size="45px" style="margin: 0px 0px 10px 26px;"><br>
+            <label for="city" id="city">City:</label>
+            <input type="text" id="city" size="45px" style="margin: 0px 0px 10px 51px;"><br>
+            <label for="state" id="state">State:</label>
+            <input type="text" id="state" style="margin: 0px 0px 10px 47px;"><br>
+            <label for="zip" id="zip">Zip:</label>
+            <input type="text" id="zip" style="margin: 0px 0px 10px 56px;"><br>
+            <label for="time">Magazine:</label>
+            <input list="time" id="list" placeholder="Newsweek">
+            <datalist id="time">
+                <option value="Day"></option>
+                <option value="Week"></option>
+                <option value="Month"></option>
+                <option value="Year"></option>
+            </datalist><br>
+            <label for="subscription">Subscription:</label>
+            <input type="radio" id="1year" name="subscription" value="1 year">
+            <label for="1year">1 year</label>
+            <input type="radio" id="2year" name="subscription" value="2 year">
+            <label for="2year">2 years</label>
+            <br>
+            <label for="additional-comments">Additional Comments:</label><br>
+            <textarea name="additionalcomments" id="" cols="35" rows="5"></textarea><br>
+            <input type="submit" value="Send your order"><br>
+            <a href="task3.html" target="blank">VIEW THIS EXAMPLE ON A PAGE BY ITSELF</a><br>
+            <p>Now <i>that's</i> a handsome form! Upload it, test it and make sure it works properly and sends you the data as expected.</p>
+        </form>
+        </body>
+</html>

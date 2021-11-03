@@ -1,0 +1,19 @@
+#backgrounded{
+    width: 280px;
+    height: 75px;
+    background-color: lightcyan;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0px 0px 0px 600px;
+}
+#colorstyle{
+    color: red;
+}
+#differentcolor{
+    color: seagreen;
+}
+#cities{
+    margin: 0px 0px 0px 650px;
+}
+
